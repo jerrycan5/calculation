@@ -5,35 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-
-        div {
-            margin-bottom: 15px;
-        }
-
-        input, select, button {
-            padding: 10px;
-            margin-right: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        button {
-            background-color: #007bff;
-            color: white;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="cal.js"></script>
+    
 </head>
 
 <body>
@@ -58,24 +32,7 @@
         <option value="triangle" id="triangle">Triangle</option>
     </select>
     <!-- calculing -->
-    <script>
-        function calculation() {
-            let num1 = document.getElementById("num1")
-            let num2 = document.getElementById("num2")
-            let num3 = document.getElementById("num3")
-
-            let area = document.getElementById("area")
-            let volume = document.getElementById("volume")
-            let perimeter = document.getElementById("perimeter")
-            let triangle = document.getElementById("triangle")
-
-            area.innerHTML = parseFloat(num1.value * num2.value)
-
-
-        }
-
-
-    </script>
+    
 </body>
 
 </html>
